@@ -1,19 +1,19 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
+# import streamlit as st
+# import pandas as pd
+# import numpy as np
 
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, roc_curve, auc, precision_recall_curve, average_precision_score
+# from sklearn.model_selection import train_test_split
+# from sklearn.metrics import confusion_matrix, roc_curve, auc, precision_recall_curve, average_precision_score
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-import japanize_matplotlib
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# import japanize_matplotlib
 
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.ensemble import RandomForestClassifier
+# from sklearn.svm import SVC
 
-import time
+# import time
 
 # タイトル
 st.title("AutoMLツール（仮）")
